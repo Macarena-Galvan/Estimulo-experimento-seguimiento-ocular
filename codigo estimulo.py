@@ -26,7 +26,7 @@ print(wn.window_width())
 wn.screensize()
 wn.setup(width = 1.0, height = 1.0)
 
-"""
+
 #Texto Introductorio:
 
 t = turtle.Turtle(visible=False)
@@ -142,7 +142,7 @@ advance(180,"horario",200,33,0.030)
 ball.hideturtle()
 
 time.sleep(3) #Segundos entre cada pelota
-"""
+
 
 #Pelota 6 Movimiento horario y antihorario #NO PUDE HACERLO
 ball = turtle.Turtle()
@@ -150,7 +150,7 @@ ball = turtle.Turtle()
 ball.setpos(0,90)
 ball.shape("circle")
 ball.color("firebrick")
-"""
+
 advance(0,"horario",40,10,0.030)
 for i in range(5, 15):
     advance(i,"horario",40,10,0.030)
@@ -175,7 +175,7 @@ for i in range(15, 20):
     advance(0,"horario",1,1,0.030)
 
 advance(0,"horario",10,10,0.030)
-"""
+
 for i in range(5, 20):
     advance(i,"horario",40,10,0.030)
     advance(0,"horario",1,1,0.030)
